@@ -1,3 +1,7 @@
+;Divident 9|0
+;Divisor 5|0
+;Quotient 1|Undefine!
+;Remainder 4
 .model small 
 .stack 100h 
 .data
