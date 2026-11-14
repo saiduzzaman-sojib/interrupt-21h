@@ -4,7 +4,7 @@
 ;AND Result : '5'
 ;OR Result : '7'
 ;XOR Result : '2'
-;Not Result : '2'
+;Not Result : '0'
 
 .model small 
 .stack 100h
