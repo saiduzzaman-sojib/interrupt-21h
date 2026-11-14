@@ -62,9 +62,9 @@ main proc
     lea dx,not_msg
     mov ah,9
     int 21h
-    ;NOT Operation
     mov bl,101b
-    xor bl,111b
+    not bl
+    and bl,101b
     mov dl,bl
     add dl,48
     mov ah,2
