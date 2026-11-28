@@ -22,7 +22,7 @@ main proc
     mov ah,1
     int 21h
     mov bl ,al 
-    mov ah,2;print ascii command   
+    
 
     lea dx,lower
     mov ah,9h
